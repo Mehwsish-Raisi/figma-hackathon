@@ -2,10 +2,10 @@
 import React from 'react';
 import Image from 'next/image';
 
-const Hero2 = () => {
+const DontMissPage = () => {
   return (
     <div>
-      {/* Heading start */}
+      {/* Heading  */}
 <div className='pl-5 sm:pl-20 text-center sm:text-left pt-8'>
     <p className='text-[23px] font-medium '>Don&apos;t Miss</p>
 </div>
@@ -49,4 +49,4 @@ const Hero2 = () => {
   );
 };
 
-export default Hero2;
+export default DontMissPage;

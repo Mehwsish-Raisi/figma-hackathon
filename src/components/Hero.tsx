@@ -2,7 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-const Hero = () => {
+const HeroPage = () => {
   return (
     <div>
       {/* Top Banner */}
@@ -59,4 +59,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default HeroPage;

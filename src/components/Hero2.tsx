@@ -1,15 +1,14 @@
+import React from "react";
+import Image from "next/image";
 
-import React from 'react';
-import Image from 'next/image';
-
-const Hero2 = () => {
+const Hero2Page = () => {
   return (
     <div>
-      {/* Featured start */}
-<div className='pl-5 sm:pl-20 text-center sm:text-left pt-8'>
-    <p className='text-[23px] font-medium '>Featured</p>
-</div>
-      
+      {/* Heading */}
+      <div className="pl-5 sm:pl-20 text-center sm:text-left pt-8">
+        <p className="text-[23px] font-medium ">Featured</p>
+      </div>
+
       <div className="pb-10 pt-8 px-4 sm:px-10 lg:px-20">
         {/* Hero Image */}
         <div className="w-full h-auto">
@@ -23,25 +22,23 @@ const Hero2 = () => {
           />
         </div>
 
-        
         <div className="text-center pt-6">
           {/* Title */}
           <div>
-            
             <h1 className="text-[32px] sm:text-[48px] lg:text-[56px] font-medium leading-tight">
-            STEP INTO WHAT FEELS GOOD
+              STEP INTO WHAT FEELS GOOD
             </h1>
             <p className="text-[13px] sm:text-[15px] pt-4 px-4 sm:px-8 lg:px-0 lg:w-[600px] mx-auto">
-            Cause everyone should know the feeling of running in that perfect pair.
+              Cause everyone should know the feeling of running in that perfect
+              pair.
             </p>
           </div>
 
-          {/* Buttons */}
+          {/* Button */}
           <div className="pt-6 flex justify-center">
             <button className=" w-[120px] lg:w-[152.42px] hover:bg-slate-700 rounded-full bg-black text-col1 py-2 text-sm">
-            Find Your Shoe
+              Find Your Shoe
             </button>
-            
           </div>
         </div>
       </div>
@@ -49,4 +46,4 @@ const Hero2 = () => {
   );
 };
 
-export default Hero2;
+export default Hero2Page;

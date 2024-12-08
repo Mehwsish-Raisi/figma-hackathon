@@ -103,16 +103,16 @@ const Footer = () => {
         {/* Column 4 (Social Media Icons) */}
 
         <div className="flex justify-center lg:justify-end items-start gap-4">
-          <div className="bg-[#7E7E7E] w-[30px] h-[30px] rounded-full p-1 hover:text-gray-600 cursor-pointer">
+          <div className="bg-[#7E7E7E] w-[30px] h-[30px] rounded-full pl-1 pt-1 hover:bg-gray-600 cursor-pointer">
             <FaTwitter className="text-lg text-black " />
           </div>
-          <div className="bg-[#7E7E7E] w-[30px] h-[30px] rounded-full p-1 hover:text-gray-600 cursor-pointer">
+          <div className="bg-[#7E7E7E] w-[30px] h-[30px] rounded-full pl-1 pt-1 hover:bg-gray-600 cursor-pointer">
             <FaFacebook className="text-lg text-black" />
           </div>
-          <div className="bg-[#7E7E7E] w-[30px] h-[30px] rounded-full p-1 hover:text-gray-600 cursor-pointer">
+          <div className="bg-[#7E7E7E] w-[30px] h-[30px] rounded-full pl-1 pt-1 hover:bg-gray-600 cursor-pointer">
             <FaYoutube className="text-lg text-black" />
           </div>
-          <div className="bg-[#7E7E7E] w-[30px] h-[30px] rounded-full p-1 hover:text-gray-600 cursor-pointer">
+          <div className="bg-[#7E7E7E] w-[30px] h-[30px] rounded-full pl-1 pt-1 hover:bg-gray-600 cursor-pointer">
             <FaInstagram className="text-lg  text-black" />
           </div>
         </div>
