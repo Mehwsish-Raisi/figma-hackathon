@@ -1,5 +1,7 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
+
 
 const Hero2Page = () => {
   return (
@@ -35,11 +37,13 @@ const Hero2Page = () => {
           </div>
 
           {/* Button */}
+          <Link href='/All-Products'>
           <div className="pt-6 flex justify-center">
             <button className=" w-[120px] lg:w-[152.42px] hover:bg-slate-700 rounded-full bg-black text-col1 py-2 text-sm">
               Find Your Shoe
             </button>
           </div>
+          </Link>
         </div>
       </div>
     </div>

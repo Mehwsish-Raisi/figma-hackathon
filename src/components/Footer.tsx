@@ -1,4 +1,4 @@
-// import React from 'react';
+ import React from 'react';
 import Link from "next/link";
 import { FaInstagram, FaYoutube, FaFacebook, FaTwitter } from "react-icons/fa";
 import { MdLocationOn } from "react-icons/md";

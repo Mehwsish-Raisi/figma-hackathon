@@ -1,6 +1,7 @@
 
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const DontMissPage = () => {
   return (
@@ -37,12 +38,15 @@ const DontMissPage = () => {
           </div>
 
           {/* Buttons */}
+          <Link href='/All-Products'>
           <div className="pt-6 flex justify-center">
             <button className="w-[80.38px] hover:bg-slate-700 rounded-full bg-black text-col1 py-2 text-sm">
             Shop
             </button>
             
+            
           </div>
+          </Link>
         </div>
       </div>
     </div>

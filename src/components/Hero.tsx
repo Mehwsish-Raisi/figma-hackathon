@@ -1,6 +1,7 @@
 
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const HeroPage = () => {
   return (
@@ -19,6 +20,7 @@ const HeroPage = () => {
       {/* Hero Section */}
       <div className="pb-10 px-4 sm:px-10 lg:px-20">
         {/* Hero Image */}
+        
         <div className="w-full h-auto">
           <Image
             src="/images/heroshoes.png"
@@ -26,9 +28,10 @@ const HeroPage = () => {
             width={1344}
             height={700}
             className="w-full h-auto object-cover"
-            priority
+            
           />
         </div>
+        
 
         {/* First Look Section */}
         <div className="text-center pt-6">
@@ -49,9 +52,11 @@ const HeroPage = () => {
             <button className="w-[100px] hover:bg-slate-700 sm:w-[120px] lg:w-[140px] rounded-full bg-black text-col1 py-2 text-sm">
               Notify Me
             </button>
+            <Link href='/All-Products'>
             <button className="w-[120px] hover:bg-slate-700 sm:w-[140px] lg:w-[160px] rounded-full bg-black text-col1 py-2 text-sm">
               Shop Air Max
             </button>
+            </Link>
           </div>
         </div>
       </div>

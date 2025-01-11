@@ -1,6 +1,7 @@
 
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Cart() {
   return (
@@ -84,9 +85,11 @@ export default function Cart() {
               <p>Total</p>
               <p>₹ 20,890.00</p>
             </div>
-            <button className="w-full bg-black text-white font-medium py-3 rounded-full mt-8">
+            <Link href='/Checkout'>
+            <button className="w-full bg-black hover:bg-slate-500 text-white font-medium py-3 rounded-full mt-8">
               Member Checkout
             </button>
+            </Link>
           </div>
         </div>
       </div>

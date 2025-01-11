@@ -2,10 +2,11 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { CiSearch, CiHeart } from "react-icons/ci";
+import { CiSearch } from "react-icons/ci";
 import { IoBagOutline } from "react-icons/io5";
-import { IoMenuOutline } from "react-icons/io5";
+import { IoMenuOutline, IoHeartOutline  } from "react-icons/io5";
 import { IoMdClose } from "react-icons/io";
+
 
 const Navbar = () => {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
@@ -27,17 +28,19 @@ const Navbar = () => {
                 Find a Store
                 
               </span>
-              <div className="w-[1px] h-[12px] bg-black"></div>
+              <div className="w-[1px] h-[12px]  bg-black"></div>
             </div>
             <div className="flex items-center gap-2">
               <span className="text-[10px] hover:underline sm:text-[11px] font-medium">
+              <Link href='/Contact-Us'>
                 Help
+              </Link>
               </span>
               <div className="w-[1px] h-[12px] bg-black"></div>
             </div>
             <div className="flex items-center gap-2">
               <span className="text-[10px] hover:underline sm:text-[11px] font-medium">
-                <Link href='#'>
+                <Link href='/JoinUs'>
                 Join Us
                 </Link>
               </span>
@@ -60,13 +63,14 @@ const Navbar = () => {
 
       <div className="pl-6">
         <div className=" bg-white w-full lg:w-[1440px] flex h-[60px] justify-between items-center">
+        <Link href={'/'}>
           <Image
             src="/images/logo2.png"
             alt="logo"
             width={78.47}
             height={78.47}
           />
-
+         </Link>
           <nav className="hidden lg:flex items-center justify-center">
             <Link href="/" className="mr-5 hover:text-gray-900">
               New & Featured
@@ -81,20 +85,23 @@ const Navbar = () => {
               Kids
             </Link>
             <Link href="/" className="mr-5 hover:text-gray-900">
+              Sale
+            </Link>
+            <Link href="/" className="mr-5 hover:text-gray-900">
               SNKRS
             </Link>
           </nav>
 
           <div className=" flex">
-            <div className="lg:flex hidden  bg-col1 gap-3 items-center w-[180px] h-[40px] rounded-[100px]">
+            <div className="lg:flex hidden mr-4 bg-col1 gap-3 items-center w-[180px] h-[40px] rounded-[100px]">
               <div className="pl-2">
                 <CiSearch className="w-[24px] h-[24px] " />
               </div>
-              <p className="opacity-50 ">Search</p>
+              <input type="text" placeholder="Search" className="w-full h-full outline-none bg-col1 rounded-[100px]" />
             </div>
-            <div className="flex gap-2 pt-2">
+            <div className="flex pl-4 gap-4 pt-2">
               <Link href='/' className="hover:text-red-500">
-              <CiHeart className="w-[24px] h-[24px] " />
+              <IoHeartOutline  className="w-[24px]  h-[24px] " />
               </Link>
               <Link href='/Cart'  className="hover:text-red-500">
               <IoBagOutline className="w-[24px] h-[24px] " />
@@ -116,7 +123,7 @@ const Navbar = () => {
           isSidebarOpen ? "translate-x-0" : "-translate-x-full"
         } transition-transform lg:hidden`}
       >
-        <div className="flex items-center justify-between px-[20px] py-[20px] border-b border-[#000000]">
+        <div className="flex items-center justify-between px-[20px] py-[10px] border-b border-[#000000]">
           <Image
             src="/images/logo2.png"
             alt="logo"
