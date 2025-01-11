@@ -5,7 +5,7 @@ import Hero2 from "@/components/Hero2";
 import DontMissPage from "@/components/DontMiss";
 import EssentialsPage from "@/components/Essentials";
 import LinksPage from "@/components/Links";
-import GearUpPage from "@/components/GearUp";
+
 
 const Homepage = () => {
   return (
@@ -13,7 +13,6 @@ const Homepage = () => {
       <Hero />
       <Products />
       <Hero2 />
-      <GearUpPage />
       <DontMissPage />
       <EssentialsPage />
       <LinksPage />

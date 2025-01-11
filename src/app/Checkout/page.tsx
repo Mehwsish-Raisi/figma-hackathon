@@ -101,7 +101,7 @@ const CheckoutPage = () => {
             </label>
           </div>
           <h2 className="font-bold text-xl pt-4">
-            What's your contact information?
+            What&apos;s your contact information?
           </h2>
           <div className="my-6">
             <input
@@ -122,7 +122,7 @@ const CheckoutPage = () => {
               A carrier might contact you to confirm delivery.
             </span>
           </div>
-          <h2 className="font-bold text-xl pt-4">What's your PAN?</h2>
+          <h2 className="font-bold text-xl pt-4">What&apos;s your PAN?</h2>
           <input
             className="w-full border-[#E5E5E5] mt-4 rounded-md px-4 py-3 border-[2px] placeholder:text-text-secondary-gray"
             type="text"
@@ -209,7 +209,7 @@ const CheckoutPage = () => {
                 Nike Dri-FIT ADV TechKnit Ultra
               </h3>
               <p className="text-sm text-gray-600">
-                Men's Short-Sleeve Running Top
+                Men&apos;s Short-Sleeve Running Top
               </p>
               <p className="text-sm text-gray-600">Ashen Slate/Cobalt Bliss</p>
               <div className="flex gap-20 text-sm text-gray-600 mt-2">
@@ -232,7 +232,7 @@ const CheckoutPage = () => {
                 Nike Dri-FIT ADV TechKnit Ultra
               </h3>
               <p className="text-sm text-gray-600">
-                Men's Short-Sleeve Running Top
+                Men&apos;s Short-Sleeve Running Top
               </p>
               <p className="text-sm text-gray-600">Ashen Slate/Cobalt Bliss</p>
               <div className="flex gap-20 text-sm text-gray-600 mt-2">

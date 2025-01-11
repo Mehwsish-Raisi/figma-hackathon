@@ -34,7 +34,7 @@ const ContactPage = () => {
                 Electron, Maestro
               </li>
               <li>
-                If you enter your PAN information at checkout, you'll be able to
+                If you enter your PAN information at checkout, you&apos;ll be able to
                 pay for your order with PayTM or a local credit or debit card.
               </li>
               <li>Apple Pay</li>
@@ -44,7 +44,7 @@ const ContactPage = () => {
                 Nike Members
               </Link>{" "}
               can store multiple debit or credit cards in their profile for
-              faster checkout. If you're not already a Member,{" "}
+              faster checkout. If you&apos;re not already a Member,{" "}
               <Link href="#" className="underline font-semibold">
                 join us
               </Link>{" "}
@@ -75,7 +75,7 @@ const ContactPage = () => {
                   Can I pay for my order with multiple methods?
                 </h4>
                 <p>
-                  No, payment for Nike orders can't be split between multiple
+                  No, payment for Nike orders can&apos;t be split between multiple
                   payment methods.
                 </p>
               </div>
@@ -90,13 +90,13 @@ const ContactPage = () => {
               </div>
               <div className="mb-6">
                 <h4 className="text-lg font-bold mb-2">
-                  Why don't I see Apple Pay as an option?
+                  Why don&apos;t I see Apple Pay as an option?
                 </h4>
                 <p>
                   To see Apple Pay as an option in the Nike App or on Nike.com,
-                  you'll need to use a compatible Apple device running the
+                  you&apos;ll need to use a compatible Apple device running the
                   latest OS, be signed in to your iCloud account and have a
-                  supported card in your Wallet. Additionally, you'll need to
+                  supported card in your Wallet. Additionally, you&apos;ll need to
                   use Safari to use Apple Pay on Nike.com.
                 </p>
               </div>
@@ -118,7 +118,7 @@ const ContactPage = () => {
               <ul className="space-y-2 ml-6">
                 <li>
                   <Link href="#" className="underline font-bold">
-                    WHAT ARE NIKE'S DELIVERY OPTIONS?
+                    WHAT ARE NIKE&apos;S DELIVERY OPTIONS?
                   </Link>
                 </li>
                 <li>
